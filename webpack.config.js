@@ -19,12 +19,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'index.html',
             chunks: ['index'],
-            template: PATHS.source + '/pages/index/index.pug'
-        }),
-        new HtmlWebpackPlugin({
-            filename: 'blog.html',
-            chunks: ['blog'],
-            template: PATHS.source + '/pages/blog/blog.pug'
+            template: PATHS.source + '/components/index.pug'
         })
     ],
     module: {
