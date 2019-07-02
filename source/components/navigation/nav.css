@@ -1,0 +1,18 @@
+
+.header {
+
+}
+
+.header__list {
+  list-style: none;
+  display: flex;
+}
+
+.header__item {
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: darkgrey;
+}
