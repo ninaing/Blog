@@ -1,10 +1,18 @@
 doctype html
-html
+block variables
+html(lang="ru-RU")
   head
     meta(charset = 'utf-8')
     link(href="../components/navigation/nav.css" rel="stylesheet")
-    title
-      block title
+    link(href="../components/socials/socials.css" rel="stylesheet")
+    
+    if(mainPage)
+        link(href="../components/layout/body_main.css" rel="stylesheet")    
+    else 
+        link(href="../components/layout/body_inner.css" rel="stylesheet")
+    
+    title #{title}
     body
       include ../components/navigation/nav
       block content
+      include ../components/socials/socials

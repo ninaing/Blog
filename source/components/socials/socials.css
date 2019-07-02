@@ -1,0 +1,14 @@
+
+.list-socials {
+  display: flex;
+  list-style: none;
+}
+.social-link {
+  margin-right: 20px;
+  width:48px;
+  height:48px;
+}
+.social-link__vk {
+  background-image: url('vk-icon.png') no-repeat;
+
+}

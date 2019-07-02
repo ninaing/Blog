@@ -1,7 +1,8 @@
 extends ../templates/main
 
-block title
-    | About us
+block variables
+    - var title = 'О нас'
+    - var innerPage = true
 block content
     h1 About me  
     p I am Nina
