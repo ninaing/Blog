@@ -4,7 +4,7 @@
   "description": "my first sth",
   "main": "webpack.config.js",
   "dependencies": {
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "webpack": "^4.35.0"
   },
   "devDependencies": {
